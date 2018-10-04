@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   height: device-height;
   weight: device-weight;
-  background-position: center;
+  background-position: fixed;
   background-size: auto;
   background-color:#464646;
   font-family: 'Century Gothic',sans-serif;
