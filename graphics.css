@@ -1,0 +1,70 @@
+body {
+  background-image: url(pubg3.jpg);
+  background-repeat: no-repeat;
+  height: device-height;
+  weight: device-weight;
+  background-position: center;
+  background-size: auto;
+  background-color:#464646;
+  font-family: 'Century Gothic',sans-serif;
+
+}
+@media only screen and (max-width: 720px)
+{
+  body{text-color: rgba(0, 0, 0, 0.6);
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+     background: url(pubg5.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+.box{
+  width: 250px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
