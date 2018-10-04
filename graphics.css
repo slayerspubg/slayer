@@ -19,19 +19,24 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
   }
 }
 .box{
   width: 250px;
+  height: auto;
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 .box-img{
