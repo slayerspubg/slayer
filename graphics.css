@@ -39,7 +39,6 @@ body {
   color: white;
   font-family: 'Century Gothic',sans-serif;
   overflow: hidden;
-  overflow-y: auto;
 }
 
 .box-img{
