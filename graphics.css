@@ -21,7 +21,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: fixed;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -39,6 +38,7 @@ body {
   color: white;
   font-family: 'Century Gothic',sans-serif;
   overflow: hidden;
+  overflow-y: auto;
 }
 
 .box-img{
