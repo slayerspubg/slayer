@@ -24,6 +24,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
+    overflow: scroll;
   }
 }
 .box{
@@ -37,6 +38,7 @@ body {
   font-family: 'Century Gothic',sans-serif;
   overflow: hidden;
   overflow-y: auto;
+
 }
 
 .box-img{
