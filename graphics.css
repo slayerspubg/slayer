@@ -3,7 +3,8 @@ body {
   background-repeat: no-repeat;
   height: device-height;
   weight: device-weight;
-  background-position: fixed;
+  background-position: center;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,6 +21,7 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
     margin: 0;
