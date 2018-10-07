@@ -41,6 +41,7 @@ body {
   color: white;
   font-family: 'Century Gothic',sans-serif;
   overflow: scroll;
+  overflow: hidden;
   overflow-y: auto;
 
 }
