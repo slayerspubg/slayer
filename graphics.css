@@ -23,10 +23,9 @@ body {
     -o-background-size: cover;
     background-attachment: fixed;
     background-size: cover;
-    overflow: hidden;
+    overflow: scroll;
     margin: 0;
     padding: 0;
-    overflow: scroll;
 
   }
 }
@@ -40,7 +39,6 @@ body {
   margin-top: 8%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
-  overflow: scroll;
   overflow: hidden;
   overflow-y: auto;
 
