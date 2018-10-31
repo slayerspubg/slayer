@@ -42,7 +42,7 @@ body {
   margin: auto;
   margin-top: 8%;
   color: white;
-  font-family: 'Century Gothic',sans-serif;
+  font-family: sans-serif;
   overflow: hidden;
   overflow-y: auto;
 
@@ -54,17 +54,15 @@ body {
   height: 200px;
 }
 .box h1{
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 4px;
   font-weight: 100;
+  font-family:  Arial Black;
 }
-.box h5{
-  font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: 100;
-}
-
 ul{
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: 100;
   margin: 0;
   padding: 0;
 }
@@ -81,4 +79,12 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
+}
+
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
 }
