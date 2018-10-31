@@ -17,8 +17,9 @@ body {
   body{
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-     background: url(pubg6.jpg) no-repeat center center fixed;
-
+    background: url(pubg6.jpg) no-repeat center center fixed;
+    height: device-height;
+    weight: device-weight;
     background-attachment: fixed;
     background-size: cover;
     overflow: scroll;
