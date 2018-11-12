@@ -34,10 +34,10 @@ body {
   }
 }
 .box{
-  width: 250px;
+  width: 450px;
   height: auto;
   background: rgba(0, 0, 0, 0.6);
-  padding: 15px;
+  padding: 25px;
   text-align: center;
   margin: auto;
   margin-top: 8%;
@@ -46,6 +46,24 @@ body {
   overflow: hidden;
   overflow-y: auto;
 
+}
+@media only screen and (max-width: 720px)
+{
+  .box{
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+     width: 250px;
+     height: auto;
+     background: rgba(0, 0, 0, 0.6);
+     padding: 25px;
+     text-align: center;
+     margin: auto;
+     margin-top: 8%;
+     color: white;
+     font-family: sans-serif;
+     overflow: hidden;
+     overflow-y: auto;
+  }
 }
 
 .box-img{
