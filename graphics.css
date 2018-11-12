@@ -21,9 +21,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    height: 100%;
-    width: auto;
-    background: cover;
+    background-size: 100%;
     overflow: scroll;
     margin: 0;
     padding: 0;
