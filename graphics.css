@@ -66,10 +66,34 @@ body {
   }
 }
 
-.box-img{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+.responsive1
+{
+  width: 400px;
+  height: 90px;
+}
+@media only screen and (max-width: 720px)
+{
+  .responsive1
+  {
+    width: 260px;
+    height: 50px;
+  }
+}
+
+.responsive2
+{
+  width: 250px;
+  height: 56px;
+}
+@media only screen and (max-width: 720px)
+{
+  .responsive2
+  {
+    width: 150px;
+    height: 30px;
+  }
+}
+
 }
 .box h1{
   font-size: 30px;
