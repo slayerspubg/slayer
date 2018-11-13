@@ -19,7 +19,7 @@ body {
      * to improve page load speed on mobile internet connections */
      background: url(pubg6.jpg);
      background-repeat: no-repeat;
-     background-position: center center;
+     background-position: center;
      background-attachment: fixed;
      height: 100%;
      width: 100%;
@@ -36,6 +36,8 @@ body {
   width: 450px;
   height: auto;
   background: rgba(0, 0, 0, 0.6);
+  background-position: center center;
+  background-attachment: fixed;
   padding: 25px;
   text-align: center;
   margin: auto;
@@ -54,6 +56,8 @@ body {
      width: 250px;
      height: auto;
      background: rgba(0, 0, 0, 0.6);
+     background-position: center;
+     background-attachment: fixed;
      padding: 25px;
      text-align: center;
      margin: auto;
@@ -121,11 +125,25 @@ ul{
 .box li a:hover{
   color: #b9b9b9;
 }
-
-/* customizable snowflake styling */
-.snowflake {
-  color: #fff;
-  font-size: 1em;
-  font-family: Arial;
-  text-shadow: 0 0 1px #000;
+.yt{
+  width: 420px;
+  height: 315px;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+}
+@media only screen and (max-width: 720px)
+{
+  .yt{
+    width: 250px;
+    height: inherit;
+    position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
 }
