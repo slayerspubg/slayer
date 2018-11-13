@@ -17,17 +17,11 @@ body {
   body{
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
-     background: url(pubg6.jpg);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-attachment: fixed;
-     height: 100%;
-     width: 100%;
-     background-size: cover;
+     background: url(pubg6.jpg) no-repeat center center fixed;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;
-     overflow: scroll;
+     background-size: cover;
      margin: 0;
      padding: 0;
   }
